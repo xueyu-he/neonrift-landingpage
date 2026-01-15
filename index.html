@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NEON RIFT — Official Website</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="container">
+
+      <header class="topbar">
+        <div class="brand">
+          <span class="dot"></span>
+          <span class="logo">NEON RIFT</span>
+        </div>
+
+        <nav class="nav">
+          <a href="#">Home</a>
+          <a href="#">Game</a>
+          <a href="#">Media</a>
+          <a href="#">Community</a>
+        </nav>
+      </header>
+
+      <main class="hero">
+        <section class="left">
+          <h1 id="title">Enter the Rift.</h1>
+
+          <p id="lead" class="lead">
+            NEON RIFT is a fast-paced sci-fi action RPG. Build your loadout,
+            fight bosses in co-op raids, and unlock seasonal rewards.
+          </p>
+
+          <div class="btns">
+            <button id="btnPlay" class="btn primary" type="button">Play Now</button>
+            <button id="btnTrailer" class="btn ghost" type="button">Watch Trailer</button>
+            <button id="btnLang" class="btn ghost" type="button">DE / EN</button>
+          </div>
+
+          <div class="cards">
+            <article class="card">
+              <h3 id="f1t">Fast Combat</h3>
+              <p id="f1p">Responsive controls and stylish abilities.</p>
+            </article>
+
+            <article class="card">
+              <h3 id="f2t">Co-op Raids</h3>
+              <p id="f2p">Team up to defeat bosses and claim rare loot.</p>
+            </article>
+
+            <article class="card">
+              <h3 id="f3t">Seasonal Updates</h3>
+              <p id="f3p">New missions, skins, and events regularly.</p>
+            </article>
+          </div>
+        </section>
+
+        <aside class="right">
+          <div class="art">
+            <img class="keyart" src="./hero.jpg" alt="Neon Rift key art">
+
+            <div class="artOverlay">
+              <div class="pill">● NEON RIFT KEY ART</div>
+
+              <div class="miniCard">
+                <div id="seasonTitle" class="miniTitle">Season 01: Riftstorm</div>
+                <div id="seasonText" class="miniText">New boss raids • Limited skins • Weekly challenges</div>
+              </div>
+            </div>
+          </div>
+        </aside>
+      </main>
+
+      <footer class="footer">
+        <span>© 2026 NEON RIFT</span>
+        <span>Wishlist on Steam • neonrift.com</span>
+      </footer>
+
+      <!-- ✅ Modal -->
+      <div id="modal" class="modal" aria-hidden="true">
+        <div class="modal__backdrop" id="modalBackdrop"></div>
+
+        <div class="modal__panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+          <div class="modal__head">
+            <strong id="modalTitle">Join the Beta</strong>
+            <button id="modalClose" class="modal__close" type="button">✕</button>
+          </div>
+
+          <p id="modalBody" class="modal__body">
+            Thanks for your interest! This is a demo UI for the portfolio project.
+          </p>
+
+          <div class="modal__actions">
+            <button id="modalOk" class="btn primary" type="button">OK</button>
+            <button id="modalCancel" class="btn ghost" type="button">Cancel</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ✅ JS -->
+  <script src="./app.js"></script>
+</body>
+</html>
